@@ -1,0 +1,64 @@
+BUILDING JollibeeKiosk.exe - REFERENCE NOTES
+==============================================
+
+ONE-TIME SETUP (already done on this machine)
+-----------------------------------------------
+1. Python installed from python.org, with "Add python.exe to PATH" checked during install.
+2. Pillow installed:
+   python -m pip install pillow
+3. PyInstaller installed:
+   python -m pip install pyinstaller
+
+FOLDER STRUCTURE REQUIRED
+-----------------------------------------------
+FastFoodDesktopApp/
+    app.py          <- the main script
+    image/          <- folder with all product images (png files)
+
+The "image" folder must sit in the SAME folder as app.py.
+
+BUILD THE STANDALONE .EXE
+-----------------------------------------------
+Open a terminal in the FastFoodDesktopApp folder (in VS Code: Ctrl + ` ), then run:
+
+python -m PyInstaller --onefile --windowed --add-data "image;image" --name JollibeeKiosk app.py
+
+What each part does:
+  --onefile                    packages everything into a single .exe
+  --windowed                   hides the black console window (GUI app)
+  --add-data "image;image"     bundles the image folder inside the exe
+  --name JollibeeKiosk         sets the output filename
+  app.py                       the script being packaged
+
+WHERE TO FIND THE RESULT
+-----------------------------------------------
+After the build finishes, the finished app is at:
+
+  FastFoodDesktopApp/dist/JollibeeKiosk.exe
+
+This single file is standalone - it does NOT need Python, Pillow, or the image
+folder installed separately on another PC.
+
+DELIVERING TO A CLIENT
+-----------------------------------------------
+- Copy only JollibeeKiosk.exe from the dist folder - nothing else is needed.
+- Test it on a machine that has never had Python installed, to confirm it's
+  truly self-contained.
+- If Windows Defender/antivirus flags it on first run (common for unsigned
+  indie apps), the client may need to click "More info" -> "Run anyway."
+
+REBUILDING AFTER YOU CHANGE THE CODE
+-----------------------------------------------
+Every time you edit app.py:
+  1. Save the file.
+  2. Re-run the same build command:
+     python -m PyInstaller --onefile --windowed --add-data "image;image" --name JollibeeKiosk app.py
+  3. A fresh JollibeeKiosk.exe will be created in dist, overwriting the old one.
+
+OPTIONAL NEXT STEPS (not done yet)
+-----------------------------------------------
+- Custom icon: add --icon=yourlogo.ico to the build command.
+- Professional installer (Start Menu shortcut, uninstaller): wrap the exe
+  using a free tool like Inno Setup.
+- Code signing: removes antivirus warnings for client deployment at scale -
+  worth looking into if this becomes a recurring product.
