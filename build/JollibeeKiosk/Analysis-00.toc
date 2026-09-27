@@ -551,17 +551,9 @@
    'C:\\Users\\Jayson '
    'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\_opcode_metadata.py',
    'PYMODULE'),
-  ('_py_abc',
-   'C:\\Users\\Jayson '
-   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\_py_abc.py',
-   'PYMODULE'),
   ('stringprep',
    'C:\\Users\\Jayson '
    'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\stringprep.py',
-   'PYMODULE'),
-  ('codeop',
-   'C:\\Users\\Jayson '
-   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\codeop.py',
    'PYMODULE'),
   ('_py_warnings',
    'C:\\Users\\Jayson '
@@ -570,6 +562,14 @@
   ('tracemalloc',
    'C:\\Users\\Jayson '
    'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\Jayson '
+   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\_py_abc.py',
+   'PYMODULE'),
+  ('codeop',
+   'C:\\Users\\Jayson '
+   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\codeop.py',
    'PYMODULE'),
   ('PIL.ImageTk',
    'C:\\Users\\Jayson '
@@ -967,6 +967,10 @@
    'C:\\Users\\Jayson '
    'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\PIL\\_version.py',
    'PYMODULE'),
+  ('tkinter.ttk',
+   'C:\\Users\\Jayson '
+   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\tkinter\\ttk.py',
+   'PYMODULE'),
   ('tkinter.messagebox',
    'C:\\Users\\Jayson '
    'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\tkinter\\messagebox.py',
@@ -974,10 +978,6 @@
   ('tkinter.commondialog',
    'C:\\Users\\Jayson '
    'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\tkinter\\commondialog.py',
-   'PYMODULE'),
-  ('tkinter.ttk',
-   'C:\\Users\\Jayson '
-   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\tkinter\\ttk.py',
    'PYMODULE'),
   ('tkinter',
    'C:\\Users\\Jayson '
@@ -1067,45 +1067,33 @@
    'C:\\Users\\Jayson '
    'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_tkinter.pyd',
    'EXTENSION'),
-  ('api-ms-win-crt-process-l1-1-0.dll',
+  ('api-ms-win-crt-environment-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-crt-process-l1-1-0.dll',
+   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-crt-environment-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-string-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
    'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-crt-string-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-runtime-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-crt-runtime-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-math-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-crt-math-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-locale-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-crt-locale-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-time-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-crt-time-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-filesystem-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-crt-filesystem-l1-1-0.dll',
-   'BINARY'),
   ('api-ms-win-crt-convert-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
    'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-crt-convert-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-environment-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-crt-environment-l1-1-0.dll',
-   'BINARY'),
   ('api-ms-win-crt-heap-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
    'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-crt-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-conio-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-crt-conio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-process-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-crt-process-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-filesystem-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-crt-filesystem-l1-1-0.dll',
    'BINARY'),
   ('VCRUNTIME140.dll',
    'C:\\Users\\Jayson '
@@ -1115,9 +1103,21 @@
    'C:\\Program Files\\Eclipse '
    'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-crt-stdio-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-conio-l1-1-0.dll',
+  ('api-ms-win-crt-locale-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-crt-conio-l1-1-0.dll',
+   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-crt-locale-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-math-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-crt-math-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-time-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-crt-time-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-crt-runtime-l1-1-0.dll',
    'BINARY'),
   ('libcrypto-3.dll',
    'C:\\Users\\Jayson '
@@ -1155,9 +1155,73 @@
    'C:\\Users\\Jayson '
    'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\zlib1.dll',
    'BINARY'),
-  ('api-ms-win-core-processthreads-l1-1-0.dll',
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-kernel32-legacy-l1-1-1.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-kernel32-legacy-l1-1-1.dll',
+   'BINARY'),
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-console-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-console-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-namedpipe-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-handle-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-handle-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-fibers-l1-1-1.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-fibers-l1-1-1.dll',
+   'BINARY'),
+  ('api-ms-win-core-localization-l1-2-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-localization-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-errorhandling-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-memory-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-memory-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-datetime-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-datetime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-string-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-1.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-processthreads-l1-1-1.dll',
    'BINARY'),
   ('api-ms-win-core-interlocked-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
@@ -1167,85 +1231,33 @@
    'C:\\Program Files\\Eclipse '
    'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-file-l1-2-0.dll',
    'BINARY'),
-  ('api-ms-win-core-fibers-l1-1-0.dll',
+  ('api-ms-win-core-timezone-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-fibers-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-memory-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-memory-l1-1-0.dll',
+   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-timezone-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-rtlsupport-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
    'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-rtlsupport-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-namedpipe-l1-1-0.dll',
+  ('api-ms-win-core-debug-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-namedpipe-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-datetime-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-datetime-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-localization-l1-2-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-localization-l1-2-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-handle-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-handle-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-timezone-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-timezone-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-kernel32-legacy-l1-1-1.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-kernel32-legacy-l1-1-1.dll',
-   'BINARY'),
-  ('api-ms-win-core-synch-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-synch-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-sysinfo-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-sysinfo-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-fibers-l1-1-1.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-fibers-l1-1-1.dll',
+   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-debug-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-sysinfo-l1-2-0.dll',
    'C:\\Program Files\\Eclipse '
    'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-sysinfo-l1-2-0.dll',
    'BINARY'),
-  ('api-ms-win-core-string-l1-1-0.dll',
+  ('api-ms-win-core-file-l2-1-0.dll',
    'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-string-l1-1-0.dll',
+   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-file-l2-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+  ('api-ms-win-core-synch-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-synch-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-errorhandling-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-libraryloader-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-libraryloader-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-debug-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-debug-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-heap-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-heap-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-console-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-console-l1-1-0.dll',
+   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-processthreads-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-file-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
@@ -1255,21 +1267,9 @@
    'C:\\Program Files\\Eclipse '
    'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-profile-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-file-l2-1-0.dll',
+  ('api-ms-win-core-fibers-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-file-l2-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-processthreads-l1-1-1.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-processthreads-l1-1-1.dll',
-   'BINARY'),
-  ('api-ms-win-core-synch-l1-2-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-synch-l1-2-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-util-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-util-l1-1-0.dll',
+   'Adoptium\\jdk-17.0.13.11-hotspot\\bin\\api-ms-win-core-fibers-l1-1-0.dll',
    'BINARY')],
  [],
  [],
@@ -1305,13 +1305,77 @@
    'C:\\Users\\Jayson '
    'Codilla\\Desktop\\FastFoodDesktopApp\\build\\JollibeeKiosk\\base_library.zip',
    'DATA')],
- [('abc',
+ [('_weakrefset',
    'C:\\Users\\Jayson '
-   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\abc.py',
+   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\_weakrefset.py',
+   'PYMODULE'),
+  ('_collections_abc',
+   'C:\\Users\\Jayson '
+   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\_collections_abc.py',
+   'PYMODULE'),
+  ('linecache',
+   'C:\\Users\\Jayson '
+   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\linecache.py',
+   'PYMODULE'),
+  ('ntpath',
+   'C:\\Users\\Jayson '
+   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\ntpath.py',
+   'PYMODULE'),
+  ('weakref',
+   'C:\\Users\\Jayson '
+   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\weakref.py',
+   'PYMODULE'),
+  ('codecs',
+   'C:\\Users\\Jayson '
+   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\codecs.py',
+   'PYMODULE'),
+  ('locale',
+   'C:\\Users\\Jayson '
+   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\locale.py',
+   'PYMODULE'),
+  ('types',
+   'C:\\Users\\Jayson '
+   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\types.py',
+   'PYMODULE'),
+  ('sre_compile',
+   'C:\\Users\\Jayson '
+   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\sre_compile.py',
+   'PYMODULE'),
+  ('sre_constants',
+   'C:\\Users\\Jayson '
+   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\sre_constants.py',
    'PYMODULE'),
   ('posixpath',
    'C:\\Users\\Jayson '
    'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\posixpath.py',
+   'PYMODULE'),
+  ('re._parser',
+   'C:\\Users\\Jayson '
+   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\re\\_parser.py',
+   'PYMODULE'),
+  ('re._constants',
+   'C:\\Users\\Jayson '
+   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\re\\_constants.py',
+   'PYMODULE'),
+  ('re._compiler',
+   'C:\\Users\\Jayson '
+   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\re\\_compiler.py',
+   'PYMODULE'),
+  ('re._casefix',
+   'C:\\Users\\Jayson '
+   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\re\\_casefix.py',
+   'PYMODULE'),
+  ('re',
+   'C:\\Users\\Jayson '
+   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\re\\__init__.py',
+   'PYMODULE'),
+  ('keyword',
+   'C:\\Users\\Jayson '
+   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\keyword.py',
+   'PYMODULE'),
+  ('functools',
+   'C:\\Users\\Jayson '
+   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\functools.py',
    'PYMODULE'),
   ('encodings.zlib_codec',
    'C:\\Users\\Jayson '
@@ -1805,123 +1869,59 @@
    'C:\\Users\\Jayson '
    'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\encodings\\__init__.py',
    'PYMODULE'),
-  ('locale',
+  ('io',
    'C:\\Users\\Jayson '
-   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\locale.py',
-   'PYMODULE'),
-  ('operator',
-   'C:\\Users\\Jayson '
-   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\operator.py',
-   'PYMODULE'),
-  ('traceback',
-   'C:\\Users\\Jayson '
-   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\traceback.py',
-   'PYMODULE'),
-  ('warnings',
-   'C:\\Users\\Jayson '
-   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\warnings.py',
-   'PYMODULE'),
-  ('copyreg',
-   'C:\\Users\\Jayson '
-   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\copyreg.py',
-   'PYMODULE'),
-  ('sre_parse',
-   'C:\\Users\\Jayson '
-   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\sre_parse.py',
-   'PYMODULE'),
-  ('sre_constants',
-   'C:\\Users\\Jayson '
-   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\sre_constants.py',
-   'PYMODULE'),
-  ('linecache',
-   'C:\\Users\\Jayson '
-   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\linecache.py',
-   'PYMODULE'),
-  ('sre_compile',
-   'C:\\Users\\Jayson '
-   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\sre_compile.py',
-   'PYMODULE'),
-  ('heapq',
-   'C:\\Users\\Jayson '
-   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\heapq.py',
-   'PYMODULE'),
-  ('codecs',
-   'C:\\Users\\Jayson '
-   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\codecs.py',
-   'PYMODULE'),
-  ('_collections_abc',
-   'C:\\Users\\Jayson '
-   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\_collections_abc.py',
-   'PYMODULE'),
-  ('keyword',
-   'C:\\Users\\Jayson '
-   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\keyword.py',
-   'PYMODULE'),
-  ('stat',
-   'C:\\Users\\Jayson '
-   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\stat.py',
-   'PYMODULE'),
-  ('enum',
-   'C:\\Users\\Jayson '
-   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\enum.py',
-   'PYMODULE'),
-  ('genericpath',
-   'C:\\Users\\Jayson '
-   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\genericpath.py',
-   'PYMODULE'),
-  ('weakref',
-   'C:\\Users\\Jayson '
-   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\weakref.py',
+   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\io.py',
    'PYMODULE'),
   ('reprlib',
    'C:\\Users\\Jayson '
    'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\reprlib.py',
    'PYMODULE'),
-  ('io',
+  ('copyreg',
    'C:\\Users\\Jayson '
-   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\io.py',
+   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\copyreg.py',
    'PYMODULE'),
-  ('types',
+  ('genericpath',
    'C:\\Users\\Jayson '
-   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\types.py',
+   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\genericpath.py',
    'PYMODULE'),
-  ('_weakrefset',
+  ('enum',
    'C:\\Users\\Jayson '
-   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\_weakrefset.py',
+   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\enum.py',
    'PYMODULE'),
-  ('functools',
+  ('sre_parse',
    'C:\\Users\\Jayson '
-   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\functools.py',
+   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\sre_parse.py',
    'PYMODULE'),
-  ('re._parser',
+  ('stat',
    'C:\\Users\\Jayson '
-   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\re\\_parser.py',
+   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\stat.py',
    'PYMODULE'),
-  ('re._constants',
+  ('warnings',
    'C:\\Users\\Jayson '
-   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\re\\_constants.py',
+   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\warnings.py',
    'PYMODULE'),
-  ('re._compiler',
+  ('abc',
    'C:\\Users\\Jayson '
-   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\re\\_compiler.py',
+   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\abc.py',
    'PYMODULE'),
-  ('re._casefix',
+  ('traceback',
    'C:\\Users\\Jayson '
-   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\re\\_casefix.py',
+   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\traceback.py',
    'PYMODULE'),
-  ('re',
+  ('operator',
    'C:\\Users\\Jayson '
-   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\re\\__init__.py',
+   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\operator.py',
    'PYMODULE'),
-  ('ntpath',
+  ('heapq',
    'C:\\Users\\Jayson '
-   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\ntpath.py',
-   'PYMODULE'),
-  ('collections',
-   'C:\\Users\\Jayson '
-   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\collections\\__init__.py',
+   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\heapq.py',
    'PYMODULE'),
   ('os',
    'C:\\Users\\Jayson '
    'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\os.py',
+   'PYMODULE'),
+  ('collections',
+   'C:\\Users\\Jayson '
+   'Codilla\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\collections\\__init__.py',
    'PYMODULE')])
